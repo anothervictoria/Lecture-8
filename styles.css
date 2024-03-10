@@ -11,13 +11,15 @@ h1 {
   text-align: center;
 }
 
-.container-red {
-  margin-left: 80px;
-  margin-right: 80px;
-  position: relative;
+.container {
+  margin: 0 auto;
   width: 1200px;
-  height: 70vh;
+  height: 90vh;
   border: 2px solid #000;
+}
+
+.container-red {
+  position: relative;
 }
 
 .box {
@@ -70,4 +72,73 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin-top: 50%;
+}
+
+.arrow-picture {
+  margin: 20px 0;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container-green {
+  position: relative;
+  background-color: #fff;
+}
+
+.box-second {
+  position: absolute;
+  width: 15%;
+  height: 50%;
+}
+
+.box-second:nth-child(odd) {
+  background-color: #44a3ae;
+}
+
+.box-second:nth-child(even) {
+  background-color: #2d5b2b;
+}
+
+.green-box1 {
+  top: 10%;
+  left: 5%;
+  z-index: 7;
+}
+
+.green-box2 {
+  top: 15%;
+  left: 18%;
+  z-index: 6;
+}
+
+.green-box3 {
+  top: 20%;
+  left: 31%;
+  z-index: 5;
+}
+
+.green-box4 {
+  top: 30%;
+  left: 44%;
+  z-index: 4;
+}
+
+.green-box5 {
+  top: 20%;
+  left: 57%;
+  z-index: 3;
+}
+
+.green-box6 {
+  top: 15%;
+  left: 70%;
+  z-index: 2;
+}
+
+.green-box7 {
+  top: 10%;
+  left: 83%;
+  z-index: 1;
 }
