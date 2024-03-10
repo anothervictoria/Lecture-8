@@ -4,17 +4,22 @@ body {
   background-color: #dfb9c0;
 }
 
-.header,
-h1 {
+.header {
+  position: fixed;
+  width: 100%;
   background-color: #85399a;
-  margin-top: 0;
+  top: 0;
+  left: 0;
   text-align: center;
+  z-index: 100;
 }
 
 .container {
-  margin: 0 auto;
+  margin: 100px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 1200px;
-  height: 90vh;
+  height: 80vh;
   border: 2px solid #000;
 }
 
@@ -84,6 +89,7 @@ h1 {
 
 .container-green {
   position: relative;
+
   background-color: #fff;
 }
 
