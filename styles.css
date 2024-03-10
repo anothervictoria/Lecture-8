@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #dfb9c0;
 }
 
 .header {
@@ -14,17 +13,30 @@ body {
   z-index: 100;
 }
 
+.background-container-pink {
+  width: 100%;
+  background-color: #dfb9c0;
+  position: sticky;
+  top: 50px;
+  left: 0px;
+}
+
+.background-container-grey {
+  position: relative;
+  width: 100%;
+  background-color: #959393;
+}
+
 .container {
   margin: 100px auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
   width: 1200px;
-  height: 80vh;
+  height: 85vh;
   border: 2px solid #000;
 }
 
 .container-red {
   position: relative;
+  margin-bottom: 0;
 }
 
 .box {
@@ -88,8 +100,8 @@ body {
 }
 
 .container-green {
+  margin-top: 0;
   position: relative;
-
   background-color: #fff;
 }
 
